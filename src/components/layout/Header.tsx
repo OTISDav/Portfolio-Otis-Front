@@ -81,7 +81,7 @@ export default function Header() {
         >
           <span>Discutons</span>
 
-          <span
+          {/* <span
             className="
               transition-transform
               duration-300
@@ -89,7 +89,7 @@ export default function Header() {
             "
           >
             ↗
-          </span>
+          </span> */}
         </Link>
 
       </div>
