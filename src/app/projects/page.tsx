@@ -36,7 +36,7 @@ const projects: Project[] = [
       "API REST",
       "Traitement d'images",
     ],
-    link: "https://github.com/OTISDav/photo-parfaite-backend",
+    link: "https://github.com/OTISDav",
     linkType: "github",
   },
   {
