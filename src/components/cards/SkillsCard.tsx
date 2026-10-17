@@ -4,8 +4,8 @@ import Card from "@/components/ui/Card";
 
 const skills = [
   "Développement web & mobile",
-  "Intelligence artificielle",
-  "Bases de données",
+  // "Intelligence artificielle",
+  // "Bases de données",
 ];
 
 export default function SkillsCard() {
