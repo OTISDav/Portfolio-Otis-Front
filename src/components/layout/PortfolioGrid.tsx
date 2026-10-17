@@ -7,7 +7,6 @@ import ProjectsCard from "../cards/ProjectCard";
 import StackCard from "../cards/StackCard";
 import SkillsCard from "../cards/SkillsCard";
 import AboutCard from "../cards/AboutCard";
-// import { Contact } from "lucide-react";
 import ContactCard from "../cards/ContactCard";
 import PhotoCard from "../cards/PhotoCard";
 import SocialCard from "../cards/SocialCard";
