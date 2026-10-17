@@ -117,7 +117,7 @@ export default function ProjectsPage() {
           </p>
 
           <h1 className="mt-4 text-5xl font-extrabold tracking-tight md:text-7xl">
-            Mes projets<span className="text-red-500">.</span>
+            Mes projets<span className="text-red-500"></span>
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-zinc-400">

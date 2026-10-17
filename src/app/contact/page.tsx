@@ -1,4 +1,3 @@
-// src/app/contact/page.tsx
 
 import Link from "next/link";
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
@@ -32,7 +31,7 @@ export default function ContactPage() {
           </p>
 
           <h1 className="mt-4 text-5xl font-extrabold tracking-tight md:text-7xl">
-            Parlons de votre projet.
+            Parlons de votre projet
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-zinc-400">
