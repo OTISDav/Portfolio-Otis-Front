@@ -1,9 +1,7 @@
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from '@next/third-parties/google';
-
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,9 +18,12 @@ export const metadata: Metadata = {
   description: "Bienvenue sur mon site web.",
 };
 
+// Correction du typage pour Next.js standard
 export default function RootLayout({
   children,
-}: LayoutProps<"/">) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="fr"
@@ -30,8 +31,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
+        {/* Placé à l'intérieur du body pour une exécution propre */}
+        <GoogleAnalytics gaId="G-KB7Q6YBTNL" />
       </body>
-      <GoogleAnalytics gaId="G-KB7Q6YBTNL" />
     </html>
   );
 }
