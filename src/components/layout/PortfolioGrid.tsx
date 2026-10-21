@@ -12,6 +12,7 @@ import PhotoCard from "../cards/PhotoCard";
 import SocialCard from "../cards/SocialCard";
 import ExperienceCard from "../cards/ExperienceCard";
 import EducationCard from "../cards/EducationCard";
+import BlogCard from "../cards/BlogCard";
 
 export default function PortfolioGrid() {
   return (
@@ -42,9 +43,14 @@ export default function PortfolioGrid() {
           <StackCard />
         </div>
 
-        {/* Compétences */}
-        <div className="lg:col-span-6">
+        {/* Compétences (6 -> 3 colonnes pour faire de la place au blog) */}
+        <div className="lg:col-span-3">
           <SkillsCard />
+        </div>
+
+        {/* Blog */}
+        <div className="lg:col-span-3">
+          <BlogCard />
         </div>
 
         {/* Contact */}
